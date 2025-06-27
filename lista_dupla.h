@@ -48,7 +48,7 @@ void inicializarBiblioteca(Biblioteca* b);
 // Adiciona novo livro ao acervo da biblioteca
 int cadastrarLivro(Biblioteca* b, char* titulo, char* autor, int ano, char* isbn);
 
-// Exibi na tela uma lista de todos os livros cadastrados
+// Exibe na tela uma lista de todos os livros cadastrados
 void listarLivros(Biblioteca* b);
 
 // Marca livro como "Emprestado", registrando o usuário e a data
@@ -63,10 +63,10 @@ NoLivro* consultarPorISBN(Biblioteca* b, char* isbn);
 // Libera memória alocada para os nós , evitando vazamentos de memória
 void destruirBiblioteca(Biblioteca* b);
 
-// Imprimi lista de livros partindo do primeiro até o último
+// Imprime lista de livros partindo do primeiro até o último
 void exibirFrente(Biblioteca* b);
 
-// Imprimi lista de livros partindo do último até o primeiro
+// Imprime lista de livros partindo do último até o primeiro
 void exibirTras(Biblioteca* b);
 
 // Remove um livro específico, buscando-o pelo ISBN
